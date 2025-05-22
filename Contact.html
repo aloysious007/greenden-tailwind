@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <!--Tailwind CSS CDN link-->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--Responsive Navbar-->
+    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl ">Greenden</h1>
+
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor"
+            class="w-6 h-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+
+
+        <ul class="flex gap-5 text-gray-600 hidden md:flex">
+
+            <li>
+
+                <a class="hover:underline hover:text-black" href="Index.html">Home</a>
+
+            </li>
+            <li>
+
+                <a class="hover:underline hover:text-black" href="Product.html">Products</a>
+
+            </li>
+            <li>
+
+                <a class="hover:underline hover:text-black" href="Contact.html">Contact Us</a>
+
+            </li>
+
+
+        </ul>
+
+    </nav>
+
+
+<!--Contact from-->
+
+<div>
+      <div class="bg-gradient-to-r from-green-700 to-green-300 w-full h-36"></div>
+      <div class="-mt-20 mb-6 px-4">
+        <div class="mx-auto max-w-6xl shadow-lg p-8 relative bg-white rounded-sm">
+          <h2 class="text-xl text-slate-900 font-semibold">Contact Us</h2>
+
+          <form class="mt-8 grid sm:grid-cols-2 gap-5">
+            <div>
+              <label class='text-sm text-slate-800 font-medium mb-2 block'>Name</label>
+              <input type='text' placeholder='Enter Name'
+                class="w-full rounded-sm py-2.5 px-4 border border-slate-300 focus:border-blue-600 text-sm outline-none" />
+            </div>
+            <div>
+              <label class='text-sm text-slate-800 font-medium mb-2 block'>Email</label>
+              <input type='email' placeholder='Enter Email'
+                class="w-full rounded-sm py-2.5 px-4 border border-slate-300 focus:border-blue-600 text-sm outline-none" />
+            </div>
+            <div>
+              <label class='text-sm text-slate-800 font-medium mb-2 block'>Phone No.</label>
+              <input type='number' placeholder='Enter Phone No.'
+                class="w-full rounded-sm py-2.5 px-4 border border-slate-300 focus:border-blue-600 text-sm outline-none" />
+            </div>
+            <div>
+              <label class='text-sm text-slate-800 font-medium mb-2 block'>Website</label>
+              <input type='text' placeholder='Enter Website'
+                class="w-full rounded-sm py-2.5 px-4 border border-slate-300 focus:border-blue-600 text-sm outline-none" />
+            </div>
+            <div>
+              <label class='text-sm text-slate-800 font-medium mb-2 block'>Company</label>
+              <input type='text' placeholder='Enter Company'
+                class="w-full rounded-sm py-2.5 px-4 border border-slate-300 focus:border-blue-600 text-sm outline-none" />
+            </div>
+            <div>
+              <label class='text-sm text-slate-800 font-medium mb-2 block'>Subject</label>
+              <input type='text' placeholder='Enter Subject'
+                class="w-full rounded-sm py-2.5 px-4 border border-slate-300 focus:border-blue-600 text-sm outline-none" />
+            </div>
+            <div>
+              <label class='text-sm text-slate-800 font-medium mb-2 block'>Message</label>
+              <textarea placeholder='Enter Message' rows="6"
+                class="col-span-full w-full rounded-sm px-4 border border-slate-300 focus:border-blue-600 text-sm pt-3 outline-none"></textarea>
+            </div>
+            <div class="flex items-center col-span-full">
+              <input id="checkbox1" type="checkbox"
+                class="w-4 h-4 mr-3 shrink-0" />
+              <label for="checkbox1" class="text-sm text-slate-500">I agree to the <a href="javascript:void(0);" class="underline">Terms and Conditions</a> and <a href="javascript:void(0);" class="underline">Privacy Policy</a></label>
+            </div>
+
+            <button type='button'
+              class="text-white font-medium w-max bg-blue-600 hover:bg-blue-700 rounded-sm text-[15px] px-4 py-2.5 !mt-6 tracking-wide cursor-pointer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" fill='#fff' class="mr-2 inline" viewBox="0 0 548.244 548.244">
+                <path fill-rule="evenodd" d="M392.19 156.054 211.268 281.667 22.032 218.58C8.823 214.168-.076 201.775 0 187.852c.077-13.923 9.078-26.24 22.338-30.498L506.15 1.549c11.5-3.697 24.123-.663 32.666 7.88 8.542 8.543 11.577 21.165 7.879 32.666L390.89 525.906c-4.258 13.26-16.575 22.261-30.498 22.338-13.923.076-26.316-8.823-30.728-22.032l-63.393-190.153z" clip-rule="evenodd" data-original="#000000" />
+              </svg>
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+<br>
+
+ <!--Footer-->
+    <section class="bg-green-100 p-10">
+        <h1 class="text-4xl font-bold">Greenden</h1>
+        <br>
+        <p>The Standard chunk of Lorem ipsum used since 1500 is reproduced below for those interest</p>
+        <br>
+        <p>@ 2021 Greenday.com</p>
+
+    </section>
+
+
+</body>
+
+</html>
